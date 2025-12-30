@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">MUSIC PREFERENCE FORM(BOLLYWOOD VERSION)</h1>
+    <p id="description">For all the music lovers out there.
+      This is the form mixed with many genre and your favorite artist.
+      List the no of listening hours </p>
+    <p><b>Lets find out are you addicted to music ?</p>
+    <p> Is music following in your blood ?</p>  
+    <p> Or is it just a hobby?</b></p>  
+    <form action id="survey-form">
+      <fieldset> 
+        <legend>Personal Information </legend>
+        <br><input 
+          required
+          id="name"
+          type="text"
+          placeholder="Your nickname">
+        <label for="name" id="name-label">Enter your name</label><br>
+        <br><input 
+          required 
+          id="email"
+          type="email"
+          placeholder="your email">
+        <label for="email" id="email-label">Enter your email</label><br>
+        <br><input 
+          required
+          id="number"
+          type="number"
+          min="0"
+          max="8"
+          placeholder="hours">
+        <label for="number" id="number-label"> Enter no of hours you listen music to in a day</label><br>
+      </fieldset>
+      <fieldset>
+        <legend> Choose you Fav artists</legend>
+        <select id="dropdown">
+            <option value="">Select an artist</option>
+            <option value="Armaan-Malik">Armaan Malik</option>
+            <option value="Arijit-Singh" >Arijit Singh</option>
+            <option value="Mohit-Chauhan">Mohit Chauhan</option> 
+            <option value="Pritam">Pritam</option>
+            <option value="Shreya-Ghosal" >Shreya Ghosal</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Have you attended their concerts</legend>
+        <label>
+           <input name="option" type="radio" value="yes">Yes
+        </label>
+        <label>
+           <input name="option" type="radio" value="no">No
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend> Select your fav genre</legend>  
+          <label>
+            <input type="checkbox" name="genre" value="Party">Party
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="Pop">Pop
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="Indie">Indie
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="Sad">Sad
+          </label>
+      </fieldset>
+     <br><textarea  placeholder="Comments"></textarea> <br>
+     <button type="submit" id="submit">Submit</button>
+   </form>
+  </body>
+</html>
