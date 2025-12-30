@@ -10,7 +10,7 @@ This project is a beginner-friendly practice project to understand **HTML forms*
 - Clean and simple layout
 
 ## Purpose
-Created as a **practice project / college assignment** to learn:
+Created as a **practice project to learn:
 - HTML form elements
 - Basic webpage structure
 - Collecting user responses
@@ -18,7 +18,7 @@ Created as a **practice project / college assignment** to learn:
 ## How to View
 The project is hosted live on GitHub Pages:
 
-[View Live Survey]
+[View Live Survey](https://pj2606.github.io/music-perference-survey-form/)
 
 ## Usage
 1. Open `index.html` in a web browser to view the survey locally.  
