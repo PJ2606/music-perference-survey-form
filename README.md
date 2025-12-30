@@ -1,2 +1,13 @@
 # music-perference-survey-form
-This is my 1st project of html 
+# Survey Website
+
+This is a simple survey website built using HTML.
+
+## Features
+- User-friendly survey form
+- Multiple input types
+- Beginner-friendly structure
+
+## Purpose
+Created as a practice project  to learn HTML forms.
+
